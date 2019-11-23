@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'theme';
+@import 'common';
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: block;
+  height: 100%;
+}

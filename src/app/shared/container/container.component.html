@@ -1,0 +1,7 @@
+<div id="container">
+  <div id="content" class="scrollable" fxLayout="column" fxLayoutGap="16px" [style.height.px]="contentHeight"
+    [style.width.px]="contentWidth" [@contentState]="sidenavOpened ? 'open' : 'closed'"
+    [style.left.px]="windowWidth - contentWidth">
+    <ng-content></ng-content>
+  </div>
+</div>
